@@ -1,8 +1,7 @@
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog, QMessageBox
-from PySide6.QtCore import QThread, Signal
+from PySide6.QtCore import QThread
 from need.imgsr import preprocess, postprocess
 from need.ui_main import Ui_MainWindow
-import threading
 import coremltools as ct
 import os
 import sys
